@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Navigator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Programming Navigator</h1>
+        <button class="contact-btn" onclick="openPopup()">Contact Us</button>
+    </header>
+    
+    <div class="container">
+        <!-- Vertical Navigation Bar -->
+        <nav class="sidebar">
+            <ul>
+                <li class="active" onclick="showContent('roadmap')">RoadMap</li>
+                <li onclick="showContent('basics')">Basics of Python</li>
+                <li onclick="showContent('array')">Array</li>
+                <li onclick="showContent('string')">String</li>
+                <li onclick="showContent('searching')">Searching Algorithm</li>
+                <!--<li onclick="showContent('sorting')">Sorting Algorithm</li>
+                <li onclick="showContent('divideConquer')">Divide and Conquer Algorithm</li>
+                <li onclick="showContent('stack')">Stack</li>
+                <li onclick="showContent('queue')">Queue</li>
+                <li onclick="showContent('linkedList')">Linked List</li>
+                <li onclick="showContent('twoPointer')">Two Pointer Concept</li>
+                <li onclick="showContent('slidingWindow')">Sliding Window Concept</li>
+                <li onclick="showContent('greedy')">Greedy Methodology</li>
+                <li onclick="showContent('dynamicProgramming')">Dynamic Programming</li>
+                <li onclick="showContent('backtracking')">Backtracking Algorithm</li>
+                <li onclick="showContent('recursion')">Recursion</li>
+                <li onclick="showContent('tree')">Tree Data Structure</li>
+                <li onclick="showContent('graph')">Graph Data Structure</li>-->
+                <li onclick="showContent('searching')">Sorting Algorithm</li>
+                <li onclick="showContent('searching')">Divide and Conquer Algorithm</li>
+                <li onclick="showContent('searching')">Stack</li>
+                <li onclick="showContent('searching')">Queue</li>
+                <li onclick="showContent('searching')">Linked List</li>
+                <li onclick="showContent('searching')">Two Pointer Concept</li>
+                <li onclick="showContent('searching')">Sliding Window Concept</li>
+                <li onclick="showContent('searching')">Greedy Methodology</li>
+                <li onclick="showContent('searching')">Dynamic Programming</li>
+                <li onclick="showContent('searching')">Backtracking Algorithm</li>
+                <li onclick="showContent('searching')">Recursion</li>
+                <li onclick="showContent('searching')">Tree Data Structure</li>
+                <li onclick="showContent('searching')">Graph Data Structure</li>
+            </ul>
+        </nav>
+
+        <!-- Right Side Content -->
+        <div class="content">
+            <div id="roadmap" class="section active">
+                <h2>RoadMap</h2>
+                <div class="roadmap-container">
+                    <div class="roadmap-step">
+                        <h3>Python Fundamentals</h3>
+                        <ul>
+                            <li>Basics of Python</li>
+                            <li>Lists, Tuple, Set, Dictionary</li>
+                            <li>Control Structures (if, while, for)</li>
+                            <li>List comprehension</li>
+                            <li>Functions, lambda Function</li>
+                            <li>Enumerate, Collections, Itertools</li>
+                            <li>Object-Oriented Programming (OOPS)</li>
+                        </ul>
+                    </div>
+                    <div class="roadmap-step">
+                        <h3>Starting The DSA Journey</h3>
+                        <ul>
+                            <li>Array</li>
+                            <li>String</li>
+                            <li>Searching Algorithm</li>
+                            <li>Sorting Algorithm</li>
+                            <li>Divide and Conquer Algorithm</li>
+                        </ul>
+                    </div>
+                    <div class="roadmap-step">
+                        <h3>Advanced Concepts</h3>
+                        <ul>
+                            <li>Stack, Queue, Linked List</li>
+                            <li>Two Pointer Concept</li>
+                            <li>Sliding Window Concept</li>
+                            <li>Greedy Methodology</li>
+                            <li>Dynamic Programming</li>
+                            <li>Backtracking Algorithm</li>
+                            <li>Recursion</li>
+                            <li>Tree Data Structure</li>
+                            <li>Graph Data Structure</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="basics" class="section">
+                <h2>Basics of Python</h2>
+                <div class="roadmap-container">
+                    <div class="roadmap-step">
+                        <h3>Python Fundamentals</h3>
+                        <ul>
+                            <li>Basics of Python</li>
+                            <li>Lists, Tuple, Set, Dictionary</li>
+                            <li>Control Structures (if, while, for)</li>
+                            <li>List comprehension</li>
+                            <li>Functions, lambda Function</li>
+                            <li>Enumerate, Collections, Itertools</li>
+                            <li>Object-Oriented Programming (OOPS)</li>
+                        </ul>
+                    </div>
+                </div>            
+            </div>
+            <div id="array" class="section">
+                <h2>Array</h2>
+                <div class="roadmap-container">
+                    <div class="roadmap-step">
+                        <h3>Array Concepts</h3>
+                        <ul>
+                            <li>What is an Array?</li>
+                            <li>Access the Elements of an Array</li>
+                            <li>Looping Array Elements</li>
+                            <li>Adding Array Elements</li>
+                            <li>Removing Array Elements</li>
+                        </ul>
+                    </div>
+                    <div class="roadmap-step">
+                        <h3>Array Methods</h3>
+                        <ul>
+                            <li>append()</li>
+                            <li>copy()</li>
+                            <li>extend()</li>
+                            <li>count()</li>
+                            <li>insert()</li>
+                            <li>index()</li>
+                            <li>pop()</li>
+                            <li>remove()</li>
+                            <li>sort()</li>
+                            <li>reverse()</li>
+                            <li>clear()</li>
+                        </ul>
+                    </div>
+                    <div class="roadmap-step">
+                        <h3>Examples</h3>
+                        <ul>
+                            <li>Find Maximum and Minimum</li>
+                            <li>Remove Duplicates</li>
+                            <li>Rotate Array</li>
+                            <li>Median of Given Array</li>
+                        </ul>
+                    </div>
+                    <div class="roadmap-step">
+                        <h3>Coding Questions</h3>
+                        <ul>
+                            <li><a href="https://leetcode.com/problems/median-of-two-sorted-arrays/description/" target="_blank">Median Of Two Sorted Arrays</a></li>
+                            <li><a href="https://leetcode.com/problems/container-with-most-water/description/" target="_blank">Container With Most Water</a></li>
+                            <li><a href="https://leetcode.com/problems/next-permutation/description/" target="_blank">Next Permutation</a></li>
+                            <li><a href="https://leetcode.com/problems/first-missing-positive/description/" target="_blank">First Missing Postive</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="string" class="section">
+                <h2>String</h2>
+                <div class="roadmap-container">
+                    <div class="roadmap-step">
+                        <h3>String Concepts</h3>
+                        <ul>
+                            <li>What is an String?</li>
+                            <li>Slicing Strings</li>
+                            <li>Modify Strings</li>
+                            <li>String Concatenation</li>
+                            <li>String Format</li>
+                            <li>Escape Character</li>
+                            <li>String Methods</li>
+                        </ul>
+                    </div>
+                    <div class="roadmap-step">
+                        <h3>Examples</h3>
+                        <ul>
+                            <li>Spiral Matrix Traversal</li>
+                            <li>Convert Integer Number to Roman Number</li>
+                            <li>Convert Roman Number to Integer Number</li>
+                            <li>Check if given String is Pangram or not</li>
+                            <li>Isomorphic Strings</li>
+                            <li>Length of Last Word</li>
+                        </ul>
+                    </div>
+                    <div class="roadmap-step">
+                        <h3>Coding Questions</h3>
+                        <ul>
+                            <li><a href="https://leetcode.com/problems/excel-sheet-column-title/description/" target="_blank">Excel Sheet Column Title</a></li>
+                            <li><a href="https://leetcode.com/problems/longest-happy-string/description/" target="_blank">Longest Happy String</a></li>
+                            <li><a href="https://leetcode.com/problems/add-binary/description/" target="_blank">Add Binary</a></li>
+                            <li><a href="https://leetcode.com/problems/license-key-formatting/description/" target="_blank">License Key Formatting</a></li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+             <div id="searching" class="section">
+                <div class="roadmap-container">
+                    <div class="roadmap-step">
+                        <ul>
+                            <li>Coming Soon......</li>
+                        </ul>
+                    </div>
+                </div>
+             </div>
+            </div>
+            <!-- Add other sections similarly -->
+        </div>
+    </div>
+
+    <!-- Popup Modal -->
+    <div class="popup" id="contactPopup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Contact Us</h2>
+            <label for="email">Email: navihgator@gmail.com</label>
+            <p>YouTube Channel: <a href="https://www.youtube.com/channel/YOUR_CHANNEL_ID" target="_blank">Your Channel Name</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
